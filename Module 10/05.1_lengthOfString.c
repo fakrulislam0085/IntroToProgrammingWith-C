@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+int main()
+{
+    char a[100];
+    scanf("%s",a);
+
+    int st = strlen(a);
+    printf("%d\n",st);
+    
+    // printf("%d",strlen(a));
+
+    return 0;
+}
